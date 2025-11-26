@@ -62,7 +62,7 @@ const SUGGESTIONS = {
   }
 };
 
-const apiKey = ""; // API Key injected by environment
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY;// API Key injected by environment
 
 // --- Mock Backend Simulation (SQLite Replacement) ---
 
